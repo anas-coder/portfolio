@@ -1,0 +1,800 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template Three</title>
+
+    <!-- Render All Elements Normally -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- Font Awesome Libary -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- Main Templet Css File -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.css">
+
+</head>
+<body>
+    
+    <!-- Start Header -->
+
+    <header id="head">
+        <div class="container">
+            <img src="imges/logo.png" alt="" class="logo">
+
+            <nav>
+                <ul>
+                    <li><a href="#Home" class="active all" style="text-decoration: none;" id="home" onclick="homes()"> Home </a></li>
+                    <li><a href="#Services"  class="all" style="text-decoration: none;" id="services" onclick="servicess()"> Services </a></li>
+                    <li><a href="#About"  class="all" style="text-decoration: none;" id="about" onclick="abouts()"> About </a></li>
+                    <li><a href="#Portfolio"  class="all" style="text-decoration: none;" id="portfolio" onclick="portfolios()"> Portfolio </a></li>
+                    <li><a href="#Team"  class="all" style="text-decoration: none;" id="team" onclick="teams()"> Team </a></li>
+                    <li class="dropdown">
+                        <a href="" class="drop"> Drop Down <i class="fas fa-chevron-down"></i></a>
+                        <div class="dropdown-content">
+                            <p>Drop</p>
+                            <hr style="background-color: white;">
+                            <p>Dorp</p>
+                            <hr style="background-color: white;">
+                            <p>Dorp</p>
+                            <hr style="background-color: white;">
+                            <p>Dorp</p>
+                        </div>
+                    </li>
+                    <li><a href="#Contact"  class="all" style="text-decoration: none;" id="contact" onclick="contacts()"> Contact </a></li>
+                </ul>
+                <div class="i">
+                <i class="fas fa-align-right fasx" class="open_menu"></i>
+            </div>
+            <a href="#Services"> <button class="started order-last order-lg-0">Get Started</button></a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- End Header -->
+
+    <!-- Start Landing -->
+
+    <div class="landing" id="Home" onmouseover="homes()">
+        <div class="container">
+            <div class="contant">
+                <h1 id="type_right"></h1>
+                <h2 id="opsty_action">We are team of talented digital marketers</h2>
+            </div>
+
+            <div class="boxs row gy-4 mt-5 justify-content-center aos-init aos-animate">
+
+                <div class="box col-xl-2 col-md-4">
+                    <div class="icon-box">
+                        <h3>Lorem Ipsum</h3>
+                    </div>
+                </div>
+
+
+                <div class="box col-xl-2 col-md-4">
+                    <div class="icon-box">
+                        <h3>Dolor Sitema</h3>
+                    </div>
+                </div>
+
+
+                <div class="box col-xl-2 col-md-4">
+                    <div class="icon-box">
+                        <h3>Sedare Perspiciatis</h3>
+                    </div>
+                </div>
+
+
+                <div class="box col-xl-2 col-md-4">
+                    <div class="icon-box">
+                        <h3>Magni Dolores</h3>
+                    </div>
+                </div>
+
+
+                <div class="box col-xl-2 col-md-4 delet">
+                    <div class="icon-box">
+                        <h3 class="swiper">Nemos Enimade</h3>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- End Landing -->
+
+
+
+
+    <!-- Start Services -->
+
+    <div class="services" id="Services" onmouseover="servicess()">
+        <div class="container">
+
+            <div class="section-title aos-init aos-animate">
+                <h1>SERVICES</h1>
+                <h2></h2>
+            </div>
+
+            <div class="row">
+
+                <!-- First Box -->
+
+                <div class="col-md-6 col-lg-3 d-flex align-items-stretch aos-init aos-animate" data-aos="fade-up">
+                    <div class="contant-box content-color1">
+                        <div class="icon">
+                            <i class="fas fa-basketball-ball icon-color1"></i>
+                        </div>
+                        <div class="titel">
+                            <a href="#index.html">Lorem ipsum</a>
+                        </div>
+                        <p class="description">
+                            Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident
+                        </p>
+                    </div>
+                </div>
+
+
+
+                <!-- Secand Box -->
+
+                <div class="col-md-6 col-lg-3 d-flex align-items-stretch aos-init aos-animate" data-aos="fade-up">
+                    <div class="contant-box content-color2">
+
+                        <div class="icon">
+                            <i class="far fa-file icon-color2"></i>
+                        </div>
+
+                        <div class="titel">
+                            <a href="#index.html">Sed ut perspiciatis</a>
+                        </div>
+
+                        <p class="description">
+                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur
+                        </p>
+
+                    </div>
+                </div>
+
+
+                <!-- Therd Box -->
+
+                <div class="col-md-6 col-lg-3 d-flex align-items-stretch aos-init aos-animate" data-aos="fade-up">
+                    <div class="contant-box content-color3">
+
+                        <div class="icon">
+                            <i class="fas fa-adjust icon-color3"></i>
+                        </div>
+
+                        <div class="titel">
+                            <a href="#index.html">Magni Doloresm</a>
+                        </div>
+
+                        <p class="description">
+                            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+                        </p>
+
+                    </div>
+                </div>
+
+
+                <!-- Forth Box -->
+
+                <div class="col-md-6 col-lg-3 d-flex align-items-stretch aos-init aos-animate" data-aos="fade-up">
+                    <div class="contant-box content-color4">
+
+                        <div class="icon">
+                            <i class="fas fa-globe-americas icon-color4"></i>
+                        </div>
+
+                        <div class="titel">
+                            <a href="#index.html">Nemo Enim</a>
+                        </div>
+
+                        <p class="description">
+                            At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque
+                        </p>
+
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <!-- End Services -->
+
+
+
+            <!-- Start About -->
+
+            <div class="about" id="About" onmouseover="abouts()">
+                <div class="container">
+                    <div class="section-title aos-init aos-animate">
+                        <h1>ABOUT</h1>
+                        <h2></h2>
+                    </div>
+                    <div class="row no-gutters">
+                        <div class="contant">
+                            <h3>Voluptatem dignissimos provident quasi</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit
+                              </p>
+                              <button>About <i class="fas fa-chevron-right"></i></button>
+                        </div>
+                    </div>
+                   
+                    <img src="imges/about_img.svg" alt="" class="img_about">
+        
+                </div>
+            </div>
+        
+        
+        
+            <!-- End About -->
+    
+            
+            <!-- Start Section One -->
+
+            <div class="call_to_action">
+                <div class="container">
+                    <h3>Call To Action</h3>
+                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <button>Call To Action</button>
+                </div>
+            </div>
+
+
+
+            <!-- End Section One -->
+
+
+            <!-- Start Portfolio -->
+
+            <div class="portfolio" id="Portfolio" onmouseover="portfolios()">
+                <div class="container">
+                    <div class="section-title aos-init aos-animate">
+                        <h1>Portfolio</h1>
+                        <h2></h2>
+                    </div>
+
+                    <div class="row aos-init aos-animate">
+                        <div class="col-lg-12 d-flex justify-content-center">
+                            <ul id="portfolio-flters">
+                                <li class="filter-active">All</li>
+                                <li>App</li>
+                                <li>Card</li>
+                                <li>Web</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    
+
+                    <div class="row portfolio-container aos-init aos-animate" style="position: relative; height: 891px;">
+                        
+                    <!-- Imge 1 -->
+
+                        <div class="col-lg-4 col-md-6 portfolio-item">
+                        <div class="portfolio-wrap filter-item" id="img1 portfolio-wrap">
+                            <img class="img-fluid" src="imges/portfolio-1.jpg" alt="">
+                            <div class="portfolio-links">
+                                <a href="" class="portfolio-lightbox">
+                                    <i class="far fa-plus-square"></i>
+                                </a>
+
+                                <a href="portfolio-details.html">
+                                    <i class="far fa-thumbs-up"></i>
+                                </a>
+
+                            </div>
+                        </div>
+                        </div>
+
+
+                    <!-- Imge 2 -->
+
+                        <div class="col-lg-4 col-md-6 portfolio-item">
+                            <div class="portfolio-wrap filter-item" id="img2">
+                                <img class="img-fluid" src="imges/portfolio-2.jpg" alt="">
+                                <div class="portfolio-links">
+                                    <a href="" class="portfolio-lightbox">
+                                        <i class="far fa-plus-square"></i>
+                                    </a>
+    
+                                    <a href="portfolio-details.html">
+                                        <i class="far fa-thumbs-up"></i>
+                                    </a>
+    
+                                </div>
+                            </div>
+                            </div>
+
+
+
+                            <!-- Imge 3 -->
+
+                        <div class="col-lg-4 col-md-6 portfolio-item">
+                            <div class="portfolio-wrap filter-item" id="img3">
+                                <img class="img-fluid" src="imges/portfolio-3.jpg" alt="">
+                                <div class="portfolio-links">
+                                    <a href="" class="portfolio-lightbox">
+                                        <i class="far fa-plus-square"></i>
+                                    </a>
+    
+                                    <a href="portfolio-details.html">
+                                        <i class="far fa-thumbs-up"></i>
+                                    </a>
+    
+                                </div>
+                            </div>
+                            </div>
+
+
+
+                            <!-- Imge 4 -->
+
+                        <div class="col-lg-4 col-md-6 portfolio-item">
+                            <div class="portfolio-wrap filter-item" id="img4">
+                                <img class="img-fluid" src="imges/portfolio-4.jpg" alt="">
+                                <div class="portfolio-links">
+                                    <a href="" class="portfolio-lightbox">
+                                        <i class="far fa-plus-square"></i>
+                                    </a>
+    
+                                    <a href="portfolio-details.html">
+                                        <i class="far fa-thumbs-up"></i>
+                                    </a>
+    
+                                </div>
+                            </div>
+                            </div>
+
+
+                            <!-- Imge 5 -->
+
+                        <div class="col-lg-4 col-md-6 portfolio-item">
+                            <div class="portfolio-wrap filter-item" id="img5">
+                                <img class="img-fluid" src="imges/portfolio-5.jpg" alt="">
+                                <div class="portfolio-links">
+                                    <a href="" class="portfolio-lightbox">
+                                        <i class="far fa-plus-square"></i>
+                                    </a>
+    
+                                    <a href="portfolio-details.html">
+                                        <i class="far fa-thumbs-up"></i>
+                                    </a>
+    
+                                </div>
+                            </div>
+                            </div>
+
+
+                            <!-- Imge 6 -->
+
+                            <div class="col-lg-4 col-md-6 portfolio-item">
+                                <div class="portfolio-wrap filter-item" id="img6">
+                                    <img class="img-fluid" src="imges/portfolio-9.jpg" alt="">
+                                    <div class="portfolio-links">
+                                        <a href="" class="portfolio-lightbox">
+                                            <i class="far fa-plus-square"></i>
+                                        </a>
+        
+                                        <a href="portfolio-details.html">
+                                            <i class="far fa-thumbs-up"></i>
+                                        </a>
+        
+                                    </div>
+                                </div>
+                                </div>
+
+
+
+                            <!-- Imge 7 -->
+
+                        <div class="col-lg-4 col-md-6 portfolio-item">
+                            <div class="portfolio-wrap filter-item" id="img7">
+                                <img class="img-fluid" src="imges/portfolio-6.jpg" alt="">
+                                <div class="portfolio-links">
+                                    <a href="" class="portfolio-lightbox">
+                                        <i class="far fa-plus-square"></i>
+                                    </a>
+    
+                                    <a href="portfolio-details.html">
+                                        <i class="far fa-thumbs-up"></i>
+                                    </a>
+    
+                                </div>
+                            </div>
+                            </div>
+
+
+
+                            <!-- Imge 8 -->
+
+                        <div class="col-lg-4 col-md-6 portfolio-item">
+                            <div class="portfolio-wrap filter-item" id="img8">
+                                <img class="img-fluid" src="imges/portfolio-7.jpg" alt="">
+                                <div class="portfolio-links">
+                                    <a href="" class="portfolio-lightbox">
+                                        <i class="far fa-plus-square"></i>
+                                    </a>
+    
+                                    <a href="portfolio-details.html">
+                                        <i class="far fa-thumbs-up"></i>
+                                    </a>
+    
+                                </div>
+                            </div>
+                            </div>
+
+
+
+                            <!-- Imge 9 -->
+
+                        <div class="col-lg-4 col-md-6 portfolio-item">
+                            <div class="portfolio-wrap filter-item" id="img9">
+                                <img class="img-fluid" src="imges/portfolio-8.jpg" alt="">
+                                <div class="portfolio-links">
+                                    <a href="" class="portfolio-lightbox">
+                                        <i class="far fa-plus-square"></i>
+                                    </a>
+    
+                                    <a href="portfolio-details.html">
+                                        <i class="far fa-thumbs-up"></i>
+                                    </a>
+    
+                                </div>
+                            </div>
+                            </div>
+
+
+                            
+
+
+                    </div>
+
+                </div>
+            </div>
+
+
+            <!-- End Portofoio -->
+
+
+
+                <!-- Start Skills -->
+
+    <div class="skills">
+        <div class="container">
+            <div class="testimonials">
+                <h3>Testimonials</h3>
+                <p>Lorem ipst consectetur, adipisicing elit. Dicta ullam ipsum possimus similique officiis, dolor ducimus atque numquam iste rerum, fugiat pariatur voluptates doloribus.</p>
+            <div class="contant">
+                <img src="imges/human_face1.jpg" alt="">
+                <div class="text">
+                    Lorem ipsum dol consectetur adipisicing elit. Dicta molestiae numquam assumenda maiores! Illo tenetur quasi rem expedita fugit, facere blanditiis praesentium ipsam?
+                    <p>John Doe, CEO</p>
+                </div>
+            </div>
+
+            <div class="contant">
+                <img src="imges/human_face2.png" alt="">
+                <div class="text">
+                    Lorem ipsum dol consectetur adipisicing elit. Dicta molestiae numquam assumenda maiores! Illo tenetur quasi rem expedita fugit, facere blanditiis praesentium ipsam?
+                    <p>John Doe, CEO</p>
+                </div>
+            </div>
+            <ul class="bullets">
+                <li></li>
+                <li class="active"></li>
+                <li></li>
+            </ul>
+            </div>
+            <div class="our-skilles">
+                <h3>Skills</h3>
+                <p>Lorem ipst consectetur, adipisicing elit. Dicta ullam ipsum possimus similique officiis, dolor ducimus atque numquam iste rerum, fugiat pariatur voluptates doloribus.</p>
+
+            <div class="prog-holder">
+                <h4>Html</h4>
+                <div class="prog">
+                    <span style="width: 90%;" data-progres="90%"></span>
+                </div>
+                </div>
+
+                <div class="prog-holder">
+                    <h4>Css</h4>
+                    <div class="prog">
+                        <span style="width: 85%;" data-progres="85%"></span>
+                    </div>
+                    </div>
+
+                <div class="prog-holder">
+                    <h4>Javascript</h4>
+                    <div class="prog">
+                        <span style="width: 80%;" data-progres="80%"></span>
+                    </div>
+            </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- End Skills -->
+
+
+
+    <!-- Start Team -->
+
+    <div class="team" id="Team" onmouseover="teams()">
+        <div class="container">
+            <div class="section-title aos-init aos-animate">
+                <h1>TEAM</h1>
+                <h2></h2>
+            </div>
+            
+            <div class="row">
+
+                <!-- First Img -->
+
+                <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+                    <div class="member aos-init aos-animate">
+                        <div class="member-img">
+
+                            <img src="imges/team-1.jpg" alt="" class="img-fluid">
+
+                            <div class="social">
+
+                                <a href="">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                                <a href="">
+                                    <i class="fab fa-facebook-square"></i>
+                                </a>
+                                <a href="">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                                <a href="">
+                                    <i class="fab fa-linkedin"></i>
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                            <div class="member-info">
+                                <h4>Walter White</h4>
+                                <span>Chief Executive Officer</span>
+                            </div>
+
+                    </div>
+                </div>
+
+
+
+                <!-- Secand Img -->
+
+
+                <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+                    <div class="member aos-init aos-animate">
+                        <div class="member-img">
+
+                            <img src="imges/team-2.jpeg" alt="" class="img-fluid">
+
+                            <div class="social">
+
+                                <a href="">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                                <a href="">
+                                    <i class="fab fa-facebook-square"></i>
+                                </a>
+                                <a href="">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                                <a href="">
+                                    <i class="fab fa-linkedin"></i>
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                            <div class="member-info">
+                                <h4>Walter White</h4>
+                                <span>Chief Executive Officer</span>
+                            </div>
+
+                    </div>
+                </div>
+
+
+
+            <!-- Third Img -->
+
+
+            <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+                <div class="member aos-init aos-animate">
+                    <div class="member-img">
+
+                        <img src="imges/team-3.jpg" alt="" class="img-fluid">
+
+                        <div class="social">
+
+                            <a href="">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="">
+                                <i class="fab fa-facebook-square"></i>
+                            </a>
+                            <a href="">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                        <div class="member-info">
+                            <h4>Walter White</h4>
+                            <span>Chief Executive Officer</span>
+                        </div>
+
+                </div>
+            </div>
+
+
+            <!-- Forth Img -->
+
+            <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+                <div class="member aos-init aos-animate">
+                    <div class="member-img">
+
+                        <img src="imges/team-2.jpg" alt="" class="img-fluid">
+
+                        <div class="social">
+
+                            <a href="">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="">
+                                <i class="fab fa-facebook-square"></i>
+                            </a>
+                            <a href="">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                        <div class="member-info">
+                            <h4>Walter White</h4>
+                            <span>Chief Executive Officer</span>
+                        </div>
+
+                </div>
+            </div>
+
+
+
+
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <!-- End Team -->
+
+
+
+
+
+    <!-- Start Contact -->
+
+    <div class="contact" id="Contact" onmouseover="contacts()">
+        <div class="container">
+            <div class="section-title aos-init aos-animate">
+                <h1>CONTACT</h1>
+                <h2></h2>
+            </div>
+
+            <div class="row">
+
+                <div class="col-lg-6">
+                    <div class="info-box mb-4">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h3>Our Address</h3>
+                        <p>A108 Adam Street, New York, NY 535022</p>
+                    </div>
+                </div>
+
+
+
+            <div class="col-lg-3 col-md-6">
+                <div class="info-box  mb-4">
+                    <i class="far fa-envelope"></i>
+                    <h3>Email Us</h3>
+                    <p>mohamed.coder@gmil.com</p>
+                </div>
+            </div>
+
+
+
+
+            <div class="col-lg-3 col-md-6">
+                <div class="info-box  mb-4">
+                    <i class="fas fa-phone-alt"></i>
+                    <h3>Call Us</h3>
+                    <p>+25 01271120594</p>
+                </div>
+            </div>
+
+            
+        </div>
+
+        <div class="row">
+            <div class="col-lg-6 ">
+                <iframe class="mb-4 mb-lg-0" allowfullscreen="" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" style="border:0; width: 100%; height: 384px;"></iframe>
+            </div>
+            <div class="col-lg-6 ">
+                <form class="php-email-form" role="form" method="POST">
+                    <div class="row">
+                        <div class="col-md-6 form-group">
+                            <input class="form-control" type="text" name="name" placeholder="Your Name" required="">
+                        </div>
+                        <div class="col-md-6 form-group mt-3 mt-md-0">
+                            <input class="form-control" type="email" name="email" placeholder="Your Email" required="">
+                        </div>
+                    </div>
+                    <div class="form-group mt-3">
+                        <input class="form-control" type="text" name="subject" placeholder="subject" required="">
+                    </div>
+                    <div class="form-group mt-3">
+                        <textarea class="form-control" rows="5" name="message" placeholder="Message" required=""></textarea>
+                    </div>
+                    <div class="text-center">
+                        <button type="submit">Send Message</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        </div>
+    </div>
+
+
+
+    <!-- End Contact -->
+
+
+
+    <script src="js/js.js"></script>
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/popper.min.js"></script>
+
+
+</body>
+</html>
